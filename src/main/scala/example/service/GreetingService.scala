@@ -5,6 +5,6 @@ import zio.{Task, ZIO}
 
 class GreetingService {
   def sayHello: Task[Unit] =
-    ZIO.logInfo(s"writing to console from ${this.getClass.getCanonicalName}") *> printLine("Hello, from GreetingService")
+    ZIO.logInfo(s"writing to console") *> printLine("Hello, from GreetingService")
 
 }
