@@ -1,7 +1,8 @@
-package example
+package examples.singledep
 
+import examples.singledep.AppModule
+import examples.singledep.service.GreetingService
 import zio.{IO, Layer, Task, ULayer, ZIO, ZIOAppDefault, ZLayer}
-import example.service.{AppModule, GreetingService}
 
 object ZioApp extends ZIOAppDefault {
   def run: Task[Unit] =

@@ -1,5 +1,6 @@
-package example.service
+package examples.singledep
 
+import examples.singledep.service.GreetingService
 import zio.{ULayer, ZLayer}
 
 object AppModule {

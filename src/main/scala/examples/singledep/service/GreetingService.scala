@@ -1,4 +1,4 @@
-package example.service
+package examples.singledep.service
 
 import zio.Console.printLine
 import zio.{Task, ZIO}
